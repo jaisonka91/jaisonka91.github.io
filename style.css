@@ -111,6 +111,12 @@ footer .social-links .fas {
   transition: color ease-in-out alternate 0.3s;
 }
 
+footer .social-links .linkedin:hover {
+  color: #0b66c2;
+  -webkit-animation: blink 1s infinite alternate linear;
+          animation: blink 1s infinite alternate linear;
+}
+
 footer .social-links .gmail:hover {
   color: #db4437;
   -webkit-animation: blink 1s infinite alternate linear;
